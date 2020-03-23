@@ -1,0 +1,91 @@
+body {
+  background-color: #ffffff;
+  color: #071C4D;
+}
+
+.navbar-brand img {
+  max-height: 30px;
+  width: 200px;
+  height: 400px;
+  margin-left: 20px;
+}
+
+header {
+  padding: 160px 0 165px 20px;
+  margin-bottom: 20px;
+  background-image: url("../images/header/nf.jpg");
+  -webkit-filter: opacity(120%);
+          filter: opacity(120%);
+  background-size: cover;
+}
+
+header h1, header p {
+  font-family: inherit;
+  font-size: 100px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.welcome {
+  margin-top: 40px;
+  margin-bottom: 200px;
+}
+
+.welcome .brandbem {
+  color: #527ef7;
+}
+
+.welcome h2 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+.welcome hr {
+  font-weight: bold;
+  width: 20%;
+  size: 20px;
+  background-color: #527ef7;
+}
+
+.welcome p {
+  font-size: 18px;
+}
+
+.introduction {
+  padding: 80px 0 80px 20px;
+  margin-bottom: 20px;
+  background-image: url("../images/header/header.png");
+  -webkit-filter: blur(60%);
+          filter: blur(60%);
+  background-size: cover;
+}
+
+.introduction h2 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.introduction iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 200px;
+  overflow: hidden;
+  border: 15px solid white;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0px;
+}
+
+footer {
+  background-color: #527ef7;
+}
+
+footer h3, footer h5, footer a {
+  color: #ffffff;
+}
+/*# sourceMappingURL=main.css.map */
