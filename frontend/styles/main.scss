@@ -1,6 +1,11 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
 	background-color: #ffffff;	
 	color: #071C4D;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar-brand{
@@ -44,6 +49,7 @@ header{
 		font-size: 20px;
 	}
 	hr{
+		align-content: center;
 		font-weight: bold;
 		width: 20%;
 		size: 20px;
@@ -71,7 +77,6 @@ header{
 	iframe{
 		display: flex;
 		align-items: center;
-		margin-left: 200px;
 		overflow: hidden;
 		border: 15px solid white;
 		border-radius: 10px 10px 10px 10px;
@@ -79,10 +84,112 @@ header{
 	}
 }
 
-footer{
-	background-color: rgb(82, 126, 247);
+.aduan{
+	margin-top: 80px;
+	margin-bottom: 40px;
 
+	.card-aduan{
+		margin-top: 40px;
+		border: 10px solid black;
+		border-radius: 10px 10px 10px 10px;
+	}
+	h3{
+		color: white;
+	}
+	.card-aduan-title{
+		background-color: rgb(226, 86, 43);
+	}
+
+	
+	.card-aduan-title-iptek{
+		background-color: rgb(6, 9, 212);
+	}
+
+	.card-aduan-description{
+		margin: 20px 20px 20px 20px;
+	}
+
+	.pintas-button{
+		
+		margin: 30px 0 30px 0;
+		
+		a{
+			background-color: rgb(6, 9, 212);
+			color: white;
+		}
+		
+	}
+
+	
+	.tanyaiptek-button{
+		
+		margin: 30px 0 30px 0;
+		
+		a{
+			background-color: rgb(228, 89, 8);
+			color: white;
+		}
+		
+	}
+}
+
+.popular-news{
+	img{
+		width : 350px;
+		height:200px;
+		margin-bottom: 15px;
+	}
+	h4{
+		margin-top: 10px;
+		margin-bottom: 15px;
+	
+	}
+}
+footer{
+	
+	background-image: linear-gradient(to bottom right, rgb(38, 0, 255), rgb(69, 19, 184));
 	h3,h5,a{
 		color:#ffffff;
+	}
+}
+
+	
+.header-kabar{
+	
+	padding: 160px 0 165px 20px;
+	margin-bottom: 20px;
+	background-image: linear-gradient(to bottom right, rgb(38, 0, 255), rgb(69, 19, 184));
+	filter: opacity(120%);
+	background-size: cover;
+	box-shadow: 10px 10px 10px rgb(69, 19, 184);
+	
+	h1, p {
+		font-family: inherit;
+		font-size: 100px;
+		font-weight: bold;
+		color : #ffffff;
+		
+	}
+}
+
+.kabar-news{
+
+	img{
+		width : 350px;
+		height:200px;
+		margin-bottom: 15px;
+	}
+	h4{
+		margin-top: 10px;
+		margin-bottom: 15px;
+	
+	}
+
+	.post-desc{
+		color: rgb(6, 252, 137);
+	}
+
+	.post-desc-berita{
+		color : rgb(98, 0, 255);
 	}
 }
