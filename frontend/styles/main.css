@@ -4,60 +4,80 @@
 }
 
 body {
+  max-width: 100%;
+  overflow-x: hidden;
   background-color: #ffffff;
   color: #071C4D;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar-brand img {
-  max-height: 30px;
-  width: 200px;
-  height: 400px;
+  max-height: 40px;
+  width: 50px;
   margin-left: 20px;
+  border-radius: 50%;
 }
 
 header {
+  min-height: 610px;
   padding: 160px 0 165px 20px;
-  margin-bottom: 20px;
-  background-image: url("../images/header/nf.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#013463), to(#4513b8));
+  background-image: linear-gradient(to bottom right, #013463, #4513b8);
   -webkit-filter: opacity(120%);
           filter: opacity(120%);
   background-size: cover;
 }
 
-header h1, header p {
+header h6 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: inherit;
-  font-size: 100px;
+  font-size: 30px;
   font-weight: bold;
   color: #ffffff;
 }
 
-.welcome {
-  margin-top: 40px;
-  margin-bottom: 200px;
+header p {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: inherit;
+  font-size: 14px;
+  color: #ffffff;
 }
 
-.welcome .brandbem {
-  color: #527ef7;
+header a {
+  display: inline-block;
+  padding: 15px;
+  border: 0.125rem solid #f3be22;
+  border-radius: 2rem;
+  background-color: #f3be22;
+  color: #fff;
+  font: 700 0.75rem/0 "Montserrat", sans-serif;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
-.welcome h2 {
-  text-align: center;
-  color: black;
-  font-size: 20px;
+header .btn-pintas {
+  margin-left: 30px;
 }
 
-.welcome hr {
-  -ms-flex-line-pack: center;
-      align-content: center;
-  font-weight: bold;
-  width: 20%;
-  size: 20px;
-  background-color: #527ef7;
-}
-
-.welcome p {
-  font-size: 18px;
+header img {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 4cm;
+  margin-bottom: -100px;
+  border-radius: 50%;
 }
 
 .introduction {
@@ -145,8 +165,8 @@ header h1, header p {
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#2600ff), to(#4513b8));
-  background-image: linear-gradient(to bottom right, #2600ff, #4513b8);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#013463), to(#4513b8));
+  background-image: linear-gradient(to bottom right, #013463, #4513b8);
 }
 
 footer h3, footer h5, footer a {
