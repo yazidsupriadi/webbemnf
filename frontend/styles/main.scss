@@ -3,15 +3,25 @@
 	padding: 0;
 }
 body{
-	
+	font-size: 14px;
 	max-width: 100%;
 	overflow-x: hidden;
 	background-color: #ffffff;	
 	color: #071C4D;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+nav{
+	ul{
+		li{
+			
+	a{
+		color: red;
+	}
+		}
+	}
+}
 .navbar-brand{
+
 	img{
 		max-height:40px;
 		width: 50px;
@@ -24,7 +34,7 @@ header{
 	min-height: 610px;
 	
 	padding: 160px 0 165px 20px;
-	background-image: linear-gradient(to bottom right, #013463, rgb(69, 19, 184));
+	background-image: linear-gradient(to bottom right, #010038, #293a80);
 	filter: opacity(120%);
 	background-size: cover;
 	h6 {
@@ -161,7 +171,7 @@ header{
 }
 footer{
 	
-	background-image: linear-gradient(to bottom right, #013463, rgb(69, 19, 184));
+	background-image: linear-gradient(to bottom right, #010038, #293a80);
 	h3,h5,a{
 		color:#ffffff;
 	}
@@ -172,7 +182,7 @@ footer{
 	
 	padding: 160px 0 165px 20px;
 	margin-bottom: 20px;
-	background-image: linear-gradient(to bottom right, rgb(38, 0, 255), rgb(69, 19, 184));
+	background-image: linear-gradient(to bottom right, #000038, #293a80);
 	filter: opacity(120%);
 	background-size: cover;
 	box-shadow: 10px 10px 10px rgb(69, 19, 184);
@@ -206,4 +216,59 @@ footer{
 	.post-desc-berita{
 		color : rgb(98, 0, 255);
 	}
+}
+
+
+
+.header-tentangkita{
+	
+	padding: 160px 0 165px 20px;
+	margin-bottom: 20px;
+	background-image: linear-gradient(to bottom right, rgb(38, 0, 255), rgb(69, 19, 184));
+	filter: opacity(120%);
+	background-size: cover;
+	box-shadow: 10px 10px 10px rgb(69, 19, 184);
+	
+	h1, p {
+		font-family: inherit;
+		font-size: 100px;
+		font-style: italic;
+		font-weight: bold;
+		color : #ffffff;
+		
+	}
+}
+
+.tentang-kabinet{
+	background-color: rgb(250, 237, 237);
+	.logo-kabinet{
+		img{
+			width: 400px;
+			height: 300px;
+		}
+	}
+}
+
+.visi-kabinet{
+	min-height: 200px;
+	background-color: rgb(69, 19, 184);
+	.judul-visi{
+		margin: 80px 0px 80px 80px;
+		
+	h2{
+		font-size: 40px;
+		color: #ffffff;
+	  }
+	}
+
+	.isi-visi{
+		justify-content : center;
+		align-items: center;
+		margin-top: 50px;
+		p{
+			font-size: 20px;
+			color : #fff;
+		}
+	}
+
 }
