@@ -273,4 +273,29 @@ footer h3, footer h5, footer a {
   font-size: 20px;
   color: #fff;
 }
+
+.misi-kabinet {
+  margin-bottom: 60px;
+}
+
+.misi-kabinet .card {
+  border: 3px solid black;
+}
+
+.intro-video {
+  color: #fff;
+  background-color: #010038;
+}
+
+.intro-video iframe {
+  margin-top: 100px;
+}
+
+.intro-kabinet {
+  background-color: #f3be22;
+}
+
+.intro-kabinet .card {
+  margin-bottom: 50px;
+}
 /*# sourceMappingURL=main.css.map */
